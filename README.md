@@ -29,4 +29,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
   - Code formatting with Prettier.
   - Pre-commit hooks for enforcing coding standards.
   - Sanitization logic for form inputs to enhance security.
-  - Add Storybook for UI component documentation
+  - Storybook for UI component documentation
