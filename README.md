@@ -8,29 +8,25 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Utilizes [Next.js](https://nextjs.org/) for server-side rendering (SSR).
+- Uses [React Hook Form](https://react-hook-form.com/) and [Zod](https://zod.dev/) for form handling and validation.
+- Leverages [shadcn/ui](https://ui.shadcn.dev/) for building the form UI.
+- Uses [Tailwind CSS](https://tailwindcss.com/) for styling.
+- Hosted on [Vercel](https://vercel.com/).
+- Live app: [https://jcode-react-form.vercel.app/](https://jcode-react-form.vercel.app/).
 
-## Learn More
+## Notes
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Testing (unit, integration, and e2e) was not explicitly required for this task. However, you can see an example of how I implement testing in this [pull request](https://github.com/mainstar123/advocate-finder/pull/1).
+- The above link also demonstrates how I implement CI/CD pipelines for linting, formatting, and testing.
+- If I had more time, I would add:
+  - Code formatting with Prettier.
+  - Pre-commit hooks for enforcing coding standards.
+  - Sanitization logic for form inputs to enhance security.
+  - Add Storybook for UI component documentation
